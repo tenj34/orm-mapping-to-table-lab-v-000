@@ -37,8 +37,8 @@ class Student
 
   def self.create
     new_student = self.new(name, grade, id = nil)
-   new_student.save
-   new_student
+    new_student.save
+    new_student
   end
 
 
